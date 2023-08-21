@@ -45,6 +45,7 @@ function boardwrite() {
                                     id="body"
                                     name="body"
                                     cols="50"
+                                    rows="10"
                                     autoComplete=""
                                     required
                                     className="appearance-none relative w-full px-2 py-3.5 placeholder-gray-500 font-base text-gray-900 focus:outline-none focus:z-10 sm:text-lg"
