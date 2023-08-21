@@ -11,7 +11,7 @@ function adminsignup() {
             <link rel="icon" href="/favicon.ico" />
         </Head>
 
-        <div className="absolute inset-y-40 max-w-md w-full space-y-8">
+        <div className="max-w-md w-full space-y-8">
             <div>
             <h2 className="mt-6 text-center text-3xl font-bold text-gray-900">관리자 회원가입</h2>
             </div>
@@ -49,12 +49,12 @@ function adminsignup() {
                 </div>
 
                 <div>
-                <label htmlFor="password" className="box-border text-sm text-black">
+                <label htmlFor="password_check" className="box-border text-sm text-black">
                     비밀번호 확인
                 </label>
                 <input
-                    id="password"
-                    name="password"
+                    id="password_check"
+                    name="password_check"
                     type="password"
                     autoComplete="current-password"
                     required
